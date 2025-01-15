@@ -3,14 +3,9 @@
 int main()
 {
 int temp;
-printf("Please enter the temperature");
+printf("Please enter the temperature ");
 scanf("%d", &temp);
-if(temp > 75)
-{
-    printf("hi");
-}else{
-    printf("bye");
-}
+printf("%d", temp>70&&temp<85);
 
 return 1;
 }
